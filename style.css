@@ -22887,9 +22887,11 @@ body .elementor-30 .elementor-element.elementor-element-e8aa0f5 .elementor-label
 }
 
 .elementor-element-26d79a1 {
-    margin-top: 10px !important;
+    margin-top: 1px !important;
     /* ajuste conforme necessário */
     /* margem superior para mover o botão para baixo */
+    background-color: orange;
+    /* cor de fundo laranja */
 }
 
 /* Cor do botão "SAIBA MAIS" */
@@ -22924,4 +22926,97 @@ body .elementor-30 .elementor-element.elementor-element-e8aa0f5 .elementor-label
 /* Ícone para elétrica */
 .card-footer i {
     margin-right: 5px;
+}
+
+/* Estilos padrão para o botão WhatsApp */
+.button-play {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 9999;
+}
+
+.button-play img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Adicionando algum espaçamento interno ao botão */
+.button-play img {
+    padding: 15px;
+}
+
+.button-play {
+    color: #fff;
+    background: #55e967;
+    height: 60px;
+    width: 60px;
+    line-height: 73px;
+    padding-left: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    font-size: 2px;
+    top: -30%;
+    left: 48%;
+    z-index: 1;
+    border-radius: 50%;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: pulse-effect;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgb(220 210 210);
+}
+
+
+@keyframes pulse-effect {
+    0% {
+        box-shadow: 0 0 0 5px rgb(255 255 255 / 100%);
+    }
+
+    25% {
+        box-shadow: 0 0 0 10px rgb(255 255 255 / 80%);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgb(255 255 255 / 30%);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgb(255 255 255 / 10%);
+    }
+}
+
+.button-play .fa-whatsapp {
+    display: inline-block;
+    /* Mostrar o ícone do WhatsApp */
+    font-family: 'Font Awesome 6 Brands';
+    /* Certifique-se de que o conjunto de ícones Font Awesome está carregado */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1;
+    content: '\f232';
+    /* Código Unicode para o ícone do WhatsApp (pode variar dependendo da versão do Font Awesome) */
+    color: white;
+    /* Cor branca */
+}
+
+.button-play img {
+    width: 14px;
+    /* Largura da imagem, ajuste conforme necessário */
+    height: auto;
+    /* Altura automática, ajuste conforme necessário */
+    vertical-align: middle;
+    /* Alinhar a imagem verticalmente */
+    margin-right: 5px;
+    /* Espaçamento à direita da imagem, ajuste conforme necessário */
 }
