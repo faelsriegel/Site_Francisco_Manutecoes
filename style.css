@@ -22894,11 +22894,11 @@ body .elementor-30 .elementor-element.elementor-element-e8aa0f5 .elementor-label
 
 /* Cor do botão "SAIBA MAIS" */
 .btn-laranja {
-    background-color: orange !important;
+    background-color: #6ec3e7 !important;
     /* Cor de fundo laranja */
     color: white !important;
     /* Cor do texto */
-    border: 2px solid orange !important;
+    border: 2px solid #6ec3e7 !important;
     /* Adicionei uma borda de 2px sólida */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
@@ -22906,15 +22906,15 @@ body .elementor-30 .elementor-element.elementor-element-e8aa0f5 .elementor-label
 .btn-laranja:hover {
     background-color: transparent !important;
     /* Altera para fundo transparente ao passar o mouse */
-    color: orange !important;
+    color: #6ec3e7 !important;
     /* Altera a cor do texto ao passar o mouse */
-    border-color: orange !important;
+    border-color: #6ec3e7 !important;
     /* Altera a cor da borda ao passar o mouse */
 }
 
 /* Cor laranja para o rodapé do card */
 .card-footer {
-    background-color: orange;
+    background-color: #6ec3e7;
     color: white;
     text-align: center;
     padding: 5px 0;
